@@ -7,7 +7,7 @@
 #------------------------------------------------------------
 # TODO: Replace with appropriate folder names and system descriptions
 # Location of CPLEX installations and system descriptions
-CPLEXDIR = /opt/ibm/ILOG/CPLEX_Studio201/cplex
+CPLEXDIR = /opt/ibm/ILOG/CPLEX_Studio_Community2211/cplex/
 CPLEXLIBDIR   = $(CPLEXDIR)/lib/$(SYSTEM)/$(LIBFORMAT)
 CPLEXINCDIR   = $(CPLEXDIR)/include
 LIBFORMAT  = static_pic
