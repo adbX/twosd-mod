@@ -108,7 +108,7 @@ function work(repl)
     """
     Run stoch approx algorithm with replication number repl.
     """
-    open("output$repl.txt", "w") do io
+    open("output_stoch$repl.txt", "w") do io
         s = copy(mu)
         max_iter = 3000
         for k in 1:max_iter
