@@ -1,0 +1,290 @@
+====================================================================================================================================
+Stage optimization problem for given input s_t = (x_t, omega_t) is in the following form : 
+
+				 h_t(s_t) = c_t*x_t + min d_t*u_t
+				                      s.t. D_t u_t = b_t - C_t x_t,
+
+with the following linear dynamics: x_{t+} = a_{t+} + A_{t+}x_t + B_{t+}u_t.
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+====================================================================================================================================
+-------------------------------------------------------- Problem Information -------------------------------------------------------
+====================================================================================================================================
+Problem                            : JuliaExportProblem
+Number of stages                   : 2
+------------------------------------------------------------------------------------------------------------------------------------
+Stage 0
+Number of decision variables (u_t) = 7		(Continuous = 7	Integer = 0	Binary = 0)
+Number of constraints              = 0
+Number of random variables (omega) = 0
+------------------------------------------------------------------------------------------------------------------------------------
+Stage 1
+Number of decision variables (u_t) = 77		(Continuous = 77	Integer = 0	Binary = 0)
+Number of constraints              = 29
+Number of random variables (omega) = 8		(a_t = 0; b_t = 8; c_t = 0; d_t = 0; A_t = 0; B_t = 0; C_t = 0; D_t = 0)
+====================================================================================================================================
+
+==================
+Replication-1
+
+--------------------------------------- Problem Information ----------------------------------------
+
+Problem                                : TIME1
+First Stage Rows                       : 0
+First Stage Columns                    : 7
+
+
+Optimization: 
+Number of iterations                   : 196
+Lower bound estimate                   : 182.289550
+
+==================
+Replication-2
+
+
+Optimization: 
+Number of iterations                   : 175
+Lower bound estimate                   : 174.326914
+
+==================
+Replication-3
+
+
+Optimization: 
+Number of iterations                   : 194
+Lower bound estimate                   : 172.684085
+
+==================
+Replication-4
+
+
+Optimization: 
+Number of iterations                   : 181
+Lower bound estimate                   : 172.581764
+
+==================
+Replication-5
+
+
+Optimization: 
+Number of iterations                   : 199
+Lower bound estimate                   : 166.573966
+
+==================
+Replication-6
+
+
+Optimization: 
+Number of iterations                   : 206
+Lower bound estimate                   : 170.154151
+
+==================
+Replication-7
+
+
+Optimization: 
+Number of iterations                   : 181
+Lower bound estimate                   : 158.614440
+
+==================
+Replication-8
+
+
+Optimization: 
+Number of iterations                   : 170
+Lower bound estimate                   : 187.698820
+
+==================
+Replication-9
+
+
+Optimization: 
+Number of iterations                   : 206
+Lower bound estimate                   : 167.837879
+
+==================
+Replication-10
+
+
+Optimization: 
+Number of iterations                   : 187
+Lower bound estimate                   : 178.519887
+
+==================
+Replication-11
+
+
+Optimization: 
+Number of iterations                   : 154
+Lower bound estimate                   : 166.446883
+
+==================
+Replication-12
+
+
+Optimization: 
+Number of iterations                   : 194
+Lower bound estimate                   : 174.991169
+
+==================
+Replication-13
+
+
+Optimization: 
+Number of iterations                   : 169
+Lower bound estimate                   : 176.677798
+
+==================
+Replication-14
+
+
+Optimization: 
+Number of iterations                   : 174
+Lower bound estimate                   : 168.479795
+
+==================
+Replication-15
+
+
+Optimization: 
+Number of iterations                   : 236
+Lower bound estimate                   : 179.984241
+
+==================
+Replication-16
+
+
+Optimization: 
+Number of iterations                   : 174
+Lower bound estimate                   : 172.729300
+
+==================
+Replication-17
+
+
+Optimization: 
+Number of iterations                   : 173
+Lower bound estimate                   : 161.752728
+
+==================
+Replication-18
+
+
+Optimization: 
+Number of iterations                   : 174
+Lower bound estimate                   : 180.401454
+
+==================
+Replication-19
+
+
+Optimization: 
+Number of iterations                   : 169
+Lower bound estimate                   : 178.426380
+
+==================
+Replication-20
+
+
+Optimization: 
+Number of iterations                   : 232
+Lower bound estimate                   : 183.524943
+
+==================
+Replication-21
+
+
+Optimization: 
+Number of iterations                   : 179
+Lower bound estimate                   : 184.937459
+
+==================
+Replication-22
+
+
+Optimization: 
+Number of iterations                   : 200
+Lower bound estimate                   : 168.708284
+
+==================
+Replication-23
+
+
+Optimization: 
+Number of iterations                   : 171
+Lower bound estimate                   : 172.705890
+
+==================
+Replication-24
+
+
+Optimization: 
+Number of iterations                   : 179
+Lower bound estimate                   : 168.913103
+
+==================
+Replication-25
+
+
+Optimization: 
+Number of iterations                   : 182
+Lower bound estimate                   : 169.265354
+
+==================
+Replication-26
+
+
+Optimization: 
+Number of iterations                   : 238
+Lower bound estimate                   : 169.703737
+
+==================
+Replication-27
+
+
+Optimization: 
+Number of iterations                   : 176
+Lower bound estimate                   : 168.516785
+
+==================
+Replication-28
+
+
+Optimization: 
+Number of iterations                   : 171
+Lower bound estimate                   : 159.106672
+
+==================
+Replication-29
+
+
+Optimization: 
+Number of iterations                   : 218
+Lower bound estimate                   : 177.587027
+
+==================
+Replication-30
+
+
+Optimization: 
+Number of iterations                   : 173
+Lower bound estimate                   : 177.333330
+
+====================================================================================================================================
+
+----------------------------------------- Compromise solution --------------------------------------
+
+
+Upper bound estimate                   : 175.336891
+Error in estimation                    : 0.008393
+Confidence interval at 95%             : [174.601112, 176.072670]
+Number of observations                 : 60586
+
+------------------------------------------- Average solution ---------------------------------------
+
+
+Upper bound estimate                   : 174.516230
+Error in estimation                    : 0.008393
+Confidence interval at 95%             : [173.783899, 175.248562]
+Number of observations                 : 59229
